@@ -1,0 +1,359 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+}
+div {
+    display: flex;
+    margin: auto;
+}
+.div-logo {
+    background-color: black;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.div-logo > img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-logo h1 {
+    color: #1894ce;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3em;
+    top: 69%;
+    
+}
+
+.div-logo p {
+    color: white;
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 77%;
+}
+
+.contact {
+    display: none;
+}
+
+header {
+    display: none;
+}
+.div-info {
+    background-color: #1894ce;
+    height: 100vh;
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+}
+
+.div-info > h1{
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 30px 10px;
+}
+
+.div-info > p {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 40px;
+      line-height: 1.8em;
+      text-align: left;
+      font-family: 'Poppins', sans-serif;
+}
+
+.div-info > ul {
+    display: flex;
+    flex-direction: column;
+      flex-wrap: wrap;
+      margin: 10px 55px;
+      line-height: 1.3em;
+      font-size: 1.2em;
+      font-family: 'Poppins', sans-serif;
+}
+.div-info > h2{
+    margin: 10px 40px 1px;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+.p2{
+    font-weight: 700;
+    font-size: 1.3em;  
+}
+
+.button {
+    width: 50%;
+    display: flex;
+    margin: 10px auto;
+    height: 2.7em;
+    border-radius: 10%;
+    background-color: black;
+    color: #40DFF1;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Audiowide', cursive;  
+}
+
+.button a {
+    color: #1894ce;
+    font-family: 'Audiowide', cursive;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform:scale(1.1); 
+}
+
+footer {
+    display: none;
+}
+
+@media (min-width: 1700px)
+{
+    .div-info > h1{
+        font-family: 'Audiowide', cursive;
+        display: flex;
+        font-size: 3.8em;
+        flex-direction: column;
+        margin: 200px 100px 20px;
+    }
+    
+    .div-info > p {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 70px;
+          line-height: 1.7em;
+          font-size: 1.9em;
+          text-align: left;
+          font-family: 'Poppins', sans-serif;
+    }
+    
+    .div-info > ul {
+        display: flex;
+        flex-direction: column;
+          flex-wrap: wrap;
+          margin: 15px 95px;
+          line-height: 1.7em;
+          font-size: 1.9em;
+          font-family: 'Poppins', sans-serif;
+    }
+    .div-info > h2{
+        margin: 10px 40px 1px;
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+    .p2{
+        font-weight: 800;
+        font-size: 1.6em;  
+    }
+    
+    .button {
+        width: 60%;
+        display: flex;
+        margin: 10px auto;
+        height: 3.7em;
+        border-radius: 10%;
+        background-color: black;
+        color: #1894ce;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Audiowide', cursive;  
+    }
+}
+
+@media (max-width:880px){
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+div {
+    width: 100%;
+}
+.div-logo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-logo > img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div-logo h1 {
+    color: #1894ce;
+    width: 50%;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3em;
+    top: 54%; 
+}
+
+.div-logo p {
+    color: white;
+    position: absolute;
+    top: 59%;
+}
+
+
+.contact {
+    margin: 0 auto 30%;
+    padding: auto;
+    display: flex;
+    border-radius: 100%;
+    background-color: black;
+    
+}
+
+.contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1894ce;
+}
+.contact i {
+    font-size: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 113px;
+    background-color: black;
+    z-index: 1000px;
+    overflow-x: hidden;
+}
+
+header img {
+    width: 280px;
+    height: 100px;
+    display: flex;
+    margin: -15px -50px auto;
+    align-items: center;
+    overflow: hidden;
+}
+.div-info {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-info > h1{
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 30px 10px;
+    
+}
+
+.contato-h2 {
+    display: none;
+}
+
+#contato-h2 {
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+    .div-logo > img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        position: fixed;  
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        margin: 0;
+        background-color: black;
+        overflow-x: hidden;
+        z-index: 1000px;
+    }
+    
+    header img {
+        width: 190px;
+        height: 50px;
+        display: flex;
+        margin: auto -30px auto;
+        justify-content: center;
+        align-items: center;
+        text-align: end;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    margin: 1%;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    }
+
+}
